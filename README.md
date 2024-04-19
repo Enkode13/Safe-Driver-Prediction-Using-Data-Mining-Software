@@ -7,7 +7,9 @@ The Knime project was larger than 25 mb and had to be split into 5 parts using t
 To re-assamble the part files into one, use the following commands after going into the local directory:
 
   MAC:
+ 
   cat KNIME_proj_Part_* > KNIME_project.knwf
 
   Windows:
+  
   copy KNIME_proj_Part_* /b KNIME_project.knwf
